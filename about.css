@@ -3,6 +3,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0px;
+    font-family: Helvetica 'Franklin Gothic Medium',  sans-serif;
+    font-size: 15px;
 
 }
 header li{
@@ -90,9 +92,4 @@ img{
 .container{
     background-color: burlywood;
 }
-.foot{
-    background-color: coral;
-    margin: auto;
-    text-align: center;
-    padding-bottom: 20px;
-}
+
