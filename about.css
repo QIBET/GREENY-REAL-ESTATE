@@ -13,9 +13,19 @@ header li{
 }
 header a{
     text-decoration: none;
+    transition:  0.5s;
+    font-weight: 700;
+}
+header .current a {
+    color: black;
+    background-color: burlywood;
+
 }
 .left-side a{
-color: black;
+color: blue;
+}
+header ul li a:hover{
+    background-color: burlywood;
 }
 .container{
     margin-top: 80px;
@@ -24,4 +34,65 @@ color: black;
     overflow: hidden;
     font-family: Helvetica 'Franklin Gothic Medium',  sans-serif;
     font-size: 15px;
+}
+img{
+    filter: brightness(70%);
+    transition: 1s;
+}
+
+
+ 
+#size img{
+    display: flex;
+    float: left;
+    margin-right: 10px;
+    font-size: 20px;
+    width: 300px;
+   
+    margin-top: 0px;
+}
+#ceo img{
+    display: flex;
+    float: left;
+    margin-right: 10px;
+    font-size: 20px;
+    width: 200px;
+    
+}
+#legal img{
+   
+    display: flex;
+    float: left;
+    margin-right: 10px;
+    font-size: 20px;
+    width: 200px;
+    
+}
+#market img{
+   display: table-column;
+    display: flex;
+    float: left;
+    margin-right: 10px;
+    font-size: 20px;
+    width: 200px;
+    
+}
+#values img{
+   
+    display: flex;
+    float: left;
+    margin-right: 10px;
+    font-size: 20px;
+    width: 200px;
+    /* height: 350px; */
+    
+}
+.container{
+    background-color: burlywood;
+}
+.foot{
+    background-color: coral;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
 }
