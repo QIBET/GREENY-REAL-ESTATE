@@ -1,8 +1,10 @@
     body {
-        background-color: transparent;
+        background-color: grey;
+        opacity: 0.8;
     }
     
     .form {
+        background-color: grey;
         background-image: url(./images/signupbg.jpeg);
         background-repeat: no-repeat;
         color: white;
@@ -20,15 +22,20 @@
     
     .registerbtn {
         background-color: orange;
+        
     }
     
     .form {
         background-image: url(./images/signupbg.jpeg);
+        background-size: contain;
         background-repeat: no-repeat;
-        border: 1px solid grey;
-        color: white;
-        padding: 10px;
-        width: 400px;
+        color: black;
+        padding: 70px;
+        position: relative;
+        top: 100px;
+        left: 200px;
+        width: 50%;
+        height: 50%;
     }
     
     .kindly {
@@ -45,20 +52,30 @@
         text-align: right;
     }
     
-    header li {
+    header li{
         float: left;
         display: inline;
         padding: 0 20px 0 20px;
+       
     }
-    
-    header a {
+    header a{
         text-decoration: none;
+        transition:  0.5s;
+        font-weight: 700;
     }
-    
-    .left-side a {
+    header .current a {
         color: black;
+        background-color: burlywood;
+    
+    }
+    .left-side a{
+    color: white;
+    }
+    .right-side{
+        color: white;
+    }
+    header ul li a:hover{
+        background-color: burlywood;
+        color: white;
     }
     
-    header ul li a:hover {
-        background-color: burlywood;
-    }

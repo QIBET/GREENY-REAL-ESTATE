@@ -21,7 +21,7 @@ header ul li a:hover{
     background-color: burlywood;
 }
 body{
-    background-color: grey;
+    background-color: rgb(63, 54, 54);
     color: white;
     opacity: 0.7;
     overflow: scroll;
@@ -40,5 +40,6 @@ border-right: 5px;
     text-align: center;
 }
 h4{
-    color: blue;
+    color: cyan;
+    font-weight: 700px;
 }
