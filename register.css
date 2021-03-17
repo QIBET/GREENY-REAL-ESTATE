@@ -1,0 +1,57 @@
+body {
+    background-color: grey;
+    opacity: 0.9;
+}
+
+.form {
+    background-image: url(./images/signupbg.jpeg); opacity: 0.8;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: black;
+    padding: 70px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    
+    
+}
+
+.kindly {
+    text-align: center;
+    color: black;
+}
+
+.registerbtn {
+    background-color: orange;
+}
+
+a {
+    text-decoration: none;
+    text-align: right;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+   
+}
+header a{
+    text-decoration: none;
+    transition:  0.5s;
+    font-weight: 700;
+}
+header .current a {
+    color: black;
+    background-color: burlywood;
+
+}
+.left-side a{
+color: white;
+}
+.right-side{
+    color: white;
+}
+header ul li a:hover{
+    background-color: burlywood;
+    color: white;
+}
