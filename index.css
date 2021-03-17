@@ -1,0 +1,22 @@
+.link-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+.left-side{
+    display: flex;
+}
+.link-wrapper > .left-side{
+    margin-right: 20px;
+}
+body{
+    background-image: url("/images/house1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: grey;
+    opacity: 0.2;
+    
+}
+.contacts > div{
+    border: 1px solid darkgoldenrod;
+}
