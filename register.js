@@ -1,36 +1,26 @@
-function validateForm() {
-    var name = document.forms["myForm"]["customer_name"];
-    var phone = document.forms["myForm"]["phone_no"];
-    var email = document.forms["myForm"]["email"];
-    var password = document.forms["myForm"]["Password"];
+function validateForm()
+var Name = document.myForm.name.value
+var phone = document.myForm.phone.value
+var email = document.myForm.email.value
+var pass = document.myForm.password.value
 
 
-    if (customer_name.value == "") {
-        window.alert("Please enter your name.");
-        name.focus();
-        return false;
-    }
-    if (phone_no.value == "") {
-        window.alert(
-            "Please enter your telephone number.");
-        phone.focus();
-        return false;
-    }
-
-
-    if (email.value == "") {
-        window.alert(
-            "Please enter a valid e-mail address.");
-        email.focus();
-        return false;
-    }
-
-
-    if (password.value == "") {
-        window.alert("Please enter your password");
-        password.focus();
-        return false;
-    }
-
-    return true;
+if (Name == "") {
+    alert("Name must be filled.");
+    document.myForm.Name.focus();
+    return false;
+} else if (phone == "") {
+    alert("Phone Number must be filled.");
+    document.myForm.phone.focus();
+    return false;
+} else if (email == "") {
+    alert("Email must be filled.");
+    document.myForm.email.focus();
+    return false;
+} else if (pass == "") {
+    alert("Password must be filled.");
+    document.myForm.psw.focus();
+    return false;
 }
+
+return true;
